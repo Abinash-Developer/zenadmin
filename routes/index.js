@@ -4,4 +4,4 @@ const blogController = require('../controller');
 
 router.get('/', blogController.getPosts);
   
-  module.exports = router;
+module.exports = router;
